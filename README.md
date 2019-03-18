@@ -27,18 +27,17 @@ Docker Engine:
     Docker registry where all the images stored. 
 
 Images:
-     Images are binary format file which contains the steps to create conatiners with configuarions.
-     Often one images will based on another image with some additional customizations.
-
-     we can create our own image by creation Dockerfile with steps to create container.
+    An image is an executable package that includes everything needed to run an application--the code, a runtime, libraries, environment variables, and configuration files.
+    Often one images will based on another image with some additional customizations.
+    We can create our own image by creation Dockerfile with steps to create container.
 
 Containers:
     containers are the runnable instance of an image. 
 
 
  Namespaces
- control groups
+ control groups -- docker uses linux cgroups to allocate needfull resources to conatiners 
  union file systems
  container format.
- 
-     
+
+
