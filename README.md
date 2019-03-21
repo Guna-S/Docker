@@ -15,16 +15,14 @@ Docker Engine:
 
  Dokcer Architecture:
 
-      Docker deamon which manages (running,removing) docker objects such as containers,images,volums
-      Docker clint issues command to docker deamon to create,stop or delete containers.
-          ex: docker pull openjdk
-          ex: docker run oprnjdk
-
-
-     Docker deamon and docker clint can run on same meachine or docker client can connect to
-     remote docker deamon to manage applications.
-
-    Docker registry where all the images stored. 
+  Docker deamon which manages (running,removing) docker objects such as containers,images,volums
+  Docker clint issues command to docker deamon to create,stop or delete containers.
+     ex: docker pull openjdk
+     ex: docker run oprnjdk
+  
+  Docker deamon and docker clint can run on same meachine or docker client can connect to remote docker deamon to manage applications.
+  
+  Docker registry where all the images stored. 
 
 Images:
     An image is an executable package that includes everything needed to run an application--the code, a runtime, libraries, environment variables, and configuration files.
@@ -41,3 +39,10 @@ Containers:
  container format.
 
 
+Data Persistence:
+
+volums
+bind mounts
+tmpfs mounts
+
+ 
